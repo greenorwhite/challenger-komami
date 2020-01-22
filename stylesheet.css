@@ -1,0 +1,227 @@
+header{
+  height: 90px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.sticky-top a{
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 34px 10px;
+  float: left;
+text-decoration: none;
+}
+
+.sticky-top a:hover{
+  color: black;
+}
+
+.header-icon{
+  padding: 30px;
+  float: left;
+  color: green;
+}
+
+/*ここまでheader要素*/
+
+/*ここからhead-view画像*/
+.head-view{
+  margin-top:90px;
+  margin-bottom: 70px;
+}
+
+.head-image{
+  background: url(images/9d08d356-59b9-4ac4-9f41-5b9c13c2b211.jpg);
+  max-width: 100%;
+  height: 640px;
+  background-size: cover;
+}
+/*ここまでhead-view画像*/
+
+/*ここからmain*/
+main{
+}
+
+.main-top-title{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-left{
+  font-size: 18px;
+}
+
+.text-justify{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.text-justify span{
+  font-weight: normal;
+}
+
+/*ここから3ステップ*/
+.line{
+  border-bottom: 2px solid darkgrey;
+  width: 60px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.fa-check-circle{
+  color: purple;
+}
+/*ここまで3ステップ*/
+
+/*ここから2コラム*/
+.fa-quote-left{
+  color:  orange;
+}
+
+.comment h2,p{
+  line-height: 1.5;
+  padding-right: 80px;
+}
+
+.check-btn{
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.comment a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.exmple1{
+  margin-bottom: 130px;
+}
+
+.fa-check{
+  color: lightblue;
+}
+
+.max-image{
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+/* ここから2コラム-2*/
+.comment-2 h2,p{
+  line-height: 1.5;
+}
+
+/*ここから3コラム-2*/
+.three-column-2{
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  font-weight: normal;
+}
+
+.no-gutters p{
+  margin-bottom: 0;
+}
+
+
+/*ここからAirbnbについて*/
+.about-airbnb{
+  margin-top: 150px;
+}
+
+/*ここから質問*/
+.about-question a{
+  font-size: 20px;
+  color: #26a69a;
+}
+
+/*ここからホスティングについて*/
+.host-title h4{
+  font-weight: bold;
+}
+
+.host-column h5{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.host-image{
+  text-decoration: none !important;
+  color: black
+}
+
+.host-image:hover{
+  color: black;
+}
+
+/*ここからbottom-wrapper*/
+.bottom-wrapper{
+  background-image: url(images/dbe25d99-6821-4e02-802f-fcd7aaef85bc.jpg);
+  height: 440px;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom-wrapper-text{
+  padding: 80px 0 50px 90px;
+}
+
+.bottom-wrapper h1{
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.bottom-wrapper a{
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none!important;
+}
+
+.bottom-wrapper a:hover{
+  color: black;
+}
+
+/*ここからfooter*/
+
+.footer h5{
+  font-weight: bold;
+}
+
+.footer a{
+  display: block;
+  color: #555555;
+}
+
+.footer a:hover{
+  color: #555555;
+}
+
+.footer span{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.footer-text p{
+  line-height: 0.5;
+  font-size: 12px;
+}
